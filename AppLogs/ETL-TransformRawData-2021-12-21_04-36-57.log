@@ -1,0 +1,22 @@
+[I] Creating Spark Session
+[I] Spark Session Created for ETL-TransformRawData App
+[I] Spark Session Initialize Completed Successfully
+[I] Variables Loaded from Config File ./AppConfig.json
+[I] NSE Shareholding Data Transformation Started
+[I] Postgresql Reader strated
+[I] Dataframe created stocks.all_nse_shareholding_pattern Successfully
+[I] Total Count from table stocks.all_nse_shareholding_pattern: 1884
+SHAREHOLDING-PATTERN: 1884
++--------------------+------------------+---------------+-----------------+------------------+--------------------+--------------------+----------------------+-------------------+
+|        company_name|promotors_holdings|public_holdings|employee_holdings|holdings_till_date|           file_name|       inserted_time|file_received_datetime|        record_date|
++--------------------+------------------+---------------+-----------------+------------------+--------------------+--------------------+----------------------+-------------------+
+|Deccan Cements Li...|             56.24|          43.76|             0.00|       30-SEP-2021|CF-Shareholding-P...|2021-12-19 06:46:...|  Sun Dec 19 05:32:...|2021-09-30 00:00:00|
+|            UCO Bank|             95.39|           4.61|             0.00|       30-SEP-2021|CF-Shareholding-P...|2021-12-19 06:46:...|  Sun Dec 19 05:32:...|2021-09-30 00:00:00|
+|Deepak Fertilizer...|             53.06|          46.94|             0.00|       30-SEP-2021|CF-Shareholding-P...|2021-12-19 06:46:...|  Sun Dec 19 05:32:...|2021-09-30 00:00:00|
+|Jalan Transolutio...|             55.12|          44.89|             0.00|       30-SEP-2021|CF-Shareholding-P...|2021-12-19 06:46:...|  Sun Dec 19 05:32:...|2021-09-30 00:00:00|
+|Godha Cabcon & In...|             72.95|          27.05|             0.00|       30-SEP-2021|CF-Shareholding-P...|2021-12-19 06:46:...|  Sun Dec 19 05:32:...|2021-09-30 00:00:00|
++--------------------+------------------+---------------+-----------------+------------------+--------------------+--------------------+----------------------+-------------------+
+only showing top 5 rows
+
+[I] NSE Shareholding Data transformation Completed Successfully
+[I] Spark Session Stopped

@@ -1,0 +1,47 @@
+{
+    "RAW_DATA_FOLDER":"C:/Users/Admin/StockMarketProject/DataFolder/rawData/",
+    "INPROGRESS_DATA_FOLDER":"C:/Users/Admin/StockMarketProject/DataFolder/Inprogress/",
+    "PROCESSES_DATA_FOLDER":"C:/Users/Admin/StockMarketProject/DataFolder/Processed/",
+    "ERROR_DATA_FOLDER":"C:/Users/Admin/StockMarketProject/DataFolder/Error/",
+    "FILE_FORMAT":"csv",
+    "JDBC_URL":"jdbc:postgresql://localhost:5432/postgres",
+    "POSTGRESQL_USERNAME":"postgres",
+    "POSTGRESQL_PASSWORD":"123456",
+    "POSTGRESQL_DRIVER": "org.postgresql.Driver",
+    "LOG_LEVEL":"ERROR",
+    "PG_CONNECTION_FORMAT":"jdbc",
+    "PG_DATALOAD_MODE":"append",
+    "TABLE_NAME_FOR_RAW_DATA":"stocks.all_nse_equity_data",
+    "LOG_FILE_PATH":"C:/Users/Admin/StockMarketProject/AppLogs/",
+    "TABLE_NAME_FOR_NIFTY_INDICES_DATA":"stocks.all_nse_indices_data",
+    "TABLE_NAME_FOR_SHAREHOLDING_PATTERN_DATA":"stocks.all_nse_shareholding_pattern",
+    "REGISTERED_USER_CLASS_PATH": [
+        "projectFiles/CSVDataTypes",
+        "projectFiles/CommonClasses"
+    ],
+    "SYMBOL_TO_TABLE_MAPPING":[
+        {
+            "M&M":"stocks.nse_mahindra_and_mahinra",
+            "ADANIGREEN":"stocks.nse_adani_green_energy",
+            "TATAMOTORS":"stocks.nse_tata_motors",
+            "TATAPOWER":"stocks.nse_tata_power",
+            "TCS":"stocks.nse_tata_consultancy_services"
+        }
+    ],
+    "INDICES_TO_TABLE_MAPPING":[
+        {
+            "NIFTY-IT":"stocks.nse_indices",
+            "NIFTY-AUTO":"stocks.nse_indices",
+            "NIFTY-OIL-&-GAS":"stocks.nse_indices",
+            "NIFTY-ENERGY":"stocks.nse_indices",
+            "NIFTY-BANK":"stocks.nse_indices",
+            "NIFTY-NEXT-50":"stocks.nse_indices",
+            "NIFTY-50":"stocks.nse_indices"
+        }
+    ],
+    "SHAREHOLDING_TO_TABLE_MAPPING": [
+        {
+            "SHAREHOLDING-PATTERN": "stocks.nse_shareholding_pattern"
+        }
+    ]
+}

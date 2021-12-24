@@ -1,0 +1,14 @@
+[I] Creating Spark Session
+[I] Spark Session Created for ETL-TransformRawData App
+[I] Spark Session Initialize Completed Successfully
+[I] Variables Loaded from Config File ./AppConfig.json
+[I] NSE Shareholding Data Transformation Started
+[I] Postgresql Reader strated
+[I] Dataframe created stocks.all_nse_shareholding_pattern Successfully
+[I] Total Count from table stocks.all_nse_shareholding_pattern: 1884
+SHAREHOLDING-PATTERN: 1880
+[E] <<<---Error in ShareholdingDataInsert--->>>
+
+'DataFrame' object has no attribute 'sow'
+[I] Error in NSE Share Holding Data Transformation
+[I] Spark Session Stopped

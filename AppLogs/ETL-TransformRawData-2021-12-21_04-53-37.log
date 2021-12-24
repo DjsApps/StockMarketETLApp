@@ -1,0 +1,72 @@
+[I] Creating Spark Session
+[I] Spark Session Created for ETL-TransformRawData App
+[I] Spark Session Initialize Completed Successfully
+[I] Variables Loaded from Config File ./AppConfig.json
+[I] Equity Data Transformation Started
+[I] Postgresql Reader strated
+[I] Dataframe created stocks.all_nse_equity_data Successfully
+[I] Total Count from table stocks.all_nse_equity_data: 9091
+ADANIGREEN: 779
+[I] Data Load Strated to stocks.nse_adani_green_energy Table
+[I] 779 Records Loaded into stocks.nse_adani_green_energy Table in jdbc:postgresql://localhost:5432/postgres url
+[I] Data Load Completed Successfully
+M&M: 1955
+[I] Data Load Strated to stocks.nse_mahindra_and_mahinra Table
+[I] 1955 Records Loaded into stocks.nse_mahindra_and_mahinra Table in jdbc:postgresql://localhost:5432/postgres url
+[I] Data Load Completed Successfully
+TATAMOTORS: 1955
+[I] Data Load Strated to stocks.nse_tata_motors Table
+[I] 1955 Records Loaded into stocks.nse_tata_motors Table in jdbc:postgresql://localhost:5432/postgres url
+[I] Data Load Completed Successfully
+TATAPOWER: 1955
+[I] Data Load Strated to stocks.nse_tata_power Table
+[I] 1955 Records Loaded into stocks.nse_tata_power Table in jdbc:postgresql://localhost:5432/postgres url
+[I] Data Load Completed Successfully
+TCS: 1955
+[I] Data Load Strated to stocks.nse_tata_consultancy_services Table
+[I] 1955 Records Loaded into stocks.nse_tata_consultancy_services Table in jdbc:postgresql://localhost:5432/postgres url
+[I] Data Load Completed Successfully
+[I] Equity Data transformation Completed Successfully
+[I] NSE Indices Data Transformation Started
+[I] Postgresql Reader strated
+[I] Dataframe created stocks.all_nse_indices_data Successfully
+[I] Total Count from table stocks.all_nse_indices_data: 169
+NIFTY-50: 51
+[I] Data Load Strated to stocks.nse_indices Table
+[I] 51 Records Loaded into stocks.nse_indices Table in jdbc:postgresql://localhost:5432/postgres url
+[I] Data Load Completed Successfully
+NIFTY-AUTO: 10
+[I] Data Load Strated to stocks.nse_indices Table
+[I] 10 Records Loaded into stocks.nse_indices Table in jdbc:postgresql://localhost:5432/postgres url
+[I] Data Load Completed Successfully
+NIFTY-BANK: 7
+[I] Data Load Strated to stocks.nse_indices Table
+[I] 7 Records Loaded into stocks.nse_indices Table in jdbc:postgresql://localhost:5432/postgres url
+[I] Data Load Completed Successfully
+NIFTY-ENERGY: 5
+[I] Data Load Strated to stocks.nse_indices Table
+[I] 5 Records Loaded into stocks.nse_indices Table in jdbc:postgresql://localhost:5432/postgres url
+[I] Data Load Completed Successfully
+NIFTY-IT: 6
+[I] Data Load Strated to stocks.nse_indices Table
+[I] 6 Records Loaded into stocks.nse_indices Table in jdbc:postgresql://localhost:5432/postgres url
+[I] Data Load Completed Successfully
+NIFTY-NEXT-50: 44
+[I] Data Load Strated to stocks.nse_indices Table
+[I] 44 Records Loaded into stocks.nse_indices Table in jdbc:postgresql://localhost:5432/postgres url
+[I] Data Load Completed Successfully
+NIFTY-OIL-&-GAS: 9
+[I] Data Load Strated to stocks.nse_indices Table
+[I] 9 Records Loaded into stocks.nse_indices Table in jdbc:postgresql://localhost:5432/postgres url
+[I] Data Load Completed Successfully
+[I] NSE Indices Data transformation Completed Successfully
+[I] NSE Shareholding Data Transformation Started
+[I] Postgresql Reader strated
+[I] Dataframe created stocks.all_nse_shareholding_pattern Successfully
+[I] Total Count from table stocks.all_nse_shareholding_pattern: 1884
+SHAREHOLDING-PATTERN: 1884
+[I] Data Load Strated to stocks.nse_shareholding_pattern Table
+[I] 1884 Records Loaded into stocks.nse_shareholding_pattern Table in jdbc:postgresql://localhost:5432/postgres url
+[I] Data Load Completed Successfully
+[I] NSE Shareholding Data transformation Completed Successfully
+[I] Spark Session Stopped

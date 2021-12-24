@@ -1,0 +1,14 @@
+[I] Creating Spark Session
+[I] Spark Session Created for ETL-TransformRawData App
+[I] Spark Session Initialize Completed Successfully
+[I] Variables Loaded from Config File ./AppConfig.json
+[I] NSE Shareholding Data Transformation Started
+[I] Postgresql Reader strated
+[I] Dataframe created stocks.all_nse_shareholding_pattern Successfully
+[I] Total Count from table stocks.all_nse_shareholding_pattern: 1884
+SHAREHOLDING-PATTERN: 1884
+[I] Data Load Strated to stocks.nse_shareholding_pattern Table
+[I] 1884 Records Loaded into stocks.nse_shareholding_pattern Table in jdbc:postgresql://localhost:5432/postgres url
+[I] Data Load Completed Successfully
+[I] NSE Shareholding Data transformation Completed Successfully
+[I] Spark Session Stopped
