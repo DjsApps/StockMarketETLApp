@@ -1,8 +1,8 @@
 from datetime import datetime
 
-class StockRules:
+class FibonacciRetracement:
     def __init__(self, strRuleName):
-        self.strRuleName = strRuleName
+        self.strRuleName = "FibonacciRetracement"
 
     def getFibonacciRetracement(self,flStartingValue,flEndingValue):
         """
